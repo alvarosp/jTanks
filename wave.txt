@@ -1,0 +1,36 @@
+J	999	240	240	0	5	0	0	0	40	30	0	0	0	0	0	1	0	0	0	0
+3	100	40	70	0	20	1	0	0	40	30	0	0	0	1	1	1	0	0	0	0
+-1	100	40	70	0	6	2	0	0	40	30	0	0	0	1	1	1	0	0	0	0
+3	100	40	70	0	7	3	0	0	40	30	0	0	0	1	1	1	0	0	0	0
+3	100	40	70	0	8	4	0	0	40	30	0	0	0	1	1	1	0	0	0	0
+3	100	40	70	0	9	5	0	0	40	30	0	0	0	1	1	1	0	0	0	0
+3	100	40	70	0	10	6	0	0	40	30	0	0	0	1	1	1	0	0	0	0
+3	100	40	70	0	11	7	0	0	40	30	0	0	0	1	1	1	0	0	0	0
+3	100	40	70	0	12	8	0	0	40	30	0	0	0	1	1	1	0	0	0	0
+3	100	40	70	0	13	9	0	0	40	30	0	0	0	1	1	1	0	0	0	0
+-1	100	240	240	0	5	0	0	0	40	30	0	0	0	1	1	1	0	0	0	0
+-8
+_	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19
+* int[] data
+	 * 0:vida máxima
+	 * 1:coorX del centro del tanque
+	 * 2:coorY
+	 * 3:ang
+	 * 4:velmax
+	 * 5:id
+	 * 6:shieldred     %de disparos que rebotan/se absorben. Si es 0 es que el tanque no tiene escudo
+	 * 7:shieldabs          1:el escudo absorbe el disparo. 0:el escudo hace rebotar el disparo
+	 * 8:ancho
+	 * 9:largo
+	 * 10:regen  puntos de vida que gana cada regentimer rondas. Si es 0 el tanque no tiene regeneracion
+	 * 11:regentimer 
+	 * 12:shape
+	 * 13:movimientoIA
+	 * 14:disparosIA
+	 * 15:tipoShot
+	 * 16:atributos
+	 * 		0:invisible
+	 * 		1:
+	 * 17:
+	 * 18:
+	 * 19:
